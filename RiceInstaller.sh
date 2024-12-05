@@ -476,7 +476,7 @@ clear
 
 ########## --------- exit ---------- ##########
 
-logo "Installation is compñete"
+logo "Installation is complete"
 
 printf "%sThe installation is complete, you %sneed%s to restart your machine.%s\n\n" "${BLD}" "${CBL}" "${CNC}" "${CNC}"
 
