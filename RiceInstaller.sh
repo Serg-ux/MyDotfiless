@@ -126,13 +126,13 @@ clear
 
 logo "Add my custom repository"
 
-REPO_CONTENT="[sergux-dotfiles]
+REPO_CONTENT="[gh0stzk-dotfiles]
 SigLevel = Optional TrustAll
-Server = https://github.com/Serg-ux/MyDotfiless/pkgs/x86_64"
+Server = http://gh0stzk.github.io/pkgs/x86_64"
 
-	if ! grep -q "\[[sergux-dotfiles\]" /etc/pacman.conf; then
+	if ! grep -q "\[gh0stzk-dotfiles\]" /etc/pacman.conf; then
 		if echo -e "\n$REPO_CONTENT" | sudo tee -a /etc/pacman.conf >/dev/null 2>> RiceError.log; then
-			printf "%s%ssergux-dotfiles%s repository added succesfully.%s\n" "${BLD}" "${CYE}" "${CGR}" "${CNC}"
+			printf "%s%sgh0stzk-dotfiles%s repository added succesfully.%s\n" "${BLD}" "${CYE}" "${CGR}" "${CNC}"
 			sudo pacman -Syy
 		else
 			printf "%s%sFailded to add custom repo. See %sRiceError.log %sfor more details.%s\n" "${BLD}" "${CYE}" "${CBL}" "${CYE}" "${CNC}"
