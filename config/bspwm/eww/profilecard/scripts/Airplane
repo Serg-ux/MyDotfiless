@@ -6,7 +6,8 @@
 #  ██║  ██║██║██║  ██║██║     ███████╗██║  ██║██║ ╚████║███████╗
 #  ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝
 #	Script to control my eww widget arirplane options.
-
+#	gh0stzk | https://github.com/gh0stzk/dotfiles
+#	12.07.2024 10:12:26
 
 
 cache_file=$HOME/.cache/$(whoami)/airplane_state

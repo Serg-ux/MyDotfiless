@@ -4,7 +4,7 @@
 #  ██╔══██║██║     ██╔══██║██║     ██╔══██╗██║   ██║      ██║     ╚██╔╝
 #  ██║  ██║███████╗██║  ██║╚██████╗██║  ██║██║   ██║      ██║      ██║
 #  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝      ╚═╝
-#	https://github.com/Serg-ux/MyDotfiless
+#	gh0stzk - https://github.com/gh0stzk/dotfiles
 
 [general]
 import = ["~/.config/alacritty/rice-colors.toml", "~/.config/alacritty/fonts.toml"]

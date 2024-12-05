@@ -6,6 +6,8 @@
 #     ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗
 #     ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
 #   Script to open with selected terminal
+#   Author: z0mbi3
+#   url: https://github.com/gh0stzk/dotfiles
 
 CFG_TERM="$HOME/.config/bspwm/src/.term"
 DEFAULT_TERM="alacritty"

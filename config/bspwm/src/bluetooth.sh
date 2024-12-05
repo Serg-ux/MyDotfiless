@@ -2,7 +2,9 @@
 
 #	The function of this script is only to detect if your Bluetooth interface is present
 #	and active and display the information in POLYBAR.
-
+#
+#	gh0stzk - https://github.com/gh0stzk/dotfiles
+#	07.08.2024 11:55:34
 
 if [ ! -d /sys/class/bluetooth ]; then
 	echo # No Bluetooth interface

@@ -1,9 +1,9 @@
-# (Tokyo Night) color scheme for h4ck3r Rice
+# (Tokyo Night) color scheme for Emilia Rice
 
 # Default colors
 [colors.primary]
-background = "#3b4252"
-foreground = "#01f408"
+background = "#1a1b26"
+foreground = "#a9b1d6"
 
 # Cursor colors
 [colors.cursor]

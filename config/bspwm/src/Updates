@@ -3,7 +3,8 @@
 #  ╠═╣╠╦╝║  ╠═╣  ║ ║╠═╝ ║║╠═╣ ║ ║╣ ╚═╗
 #  ╩ ╩╩╚═╚═╝╩ ╩  ╚═╝╩  ═╩╝╩ ╩ ╩ ╚═╝╚═╝
 # Script to check for new updates in arch and AUR. Copyright 2023 gh0stzk
-
+# Author: z0mbi3
+# url: https://github.com/gh0stzk
 
 get_total_updates() {
     local total_updates

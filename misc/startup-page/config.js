@@ -11,11 +11,11 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Serg-ux',
+	name: 'gh0stzk',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: true,
-	timeZone: 'Europe/Madrid',
+	timeZone: 'America/Mexico_City',
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -26,9 +26,15 @@ const CONFIG = {
 	// Layout
 	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below Based on Madrid
-	defaultLatitude: '40.394053',
-	defaultLongitude: '-3.694565',
+	// Weather
+	weatherKey: '8b05d62206f459e1d298cbe5844d7d87', // Write here your API Key
+	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherUnit: 'C', // 'F', 'C'
+	language: 'en', // More languages in https://openweathermap.org/current#multi
+
+	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '19.593',
+	defaultLongitude: '-99.250',
 
 	// Autochange
 	autoChangeTheme: false,
@@ -134,8 +140,8 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'My Github',
-					link: 'https://github.com/Serg-ux',
+					name: 'z0mbi3 dots',
+					link: 'https://github.com/gh0stzk/dotfiles',
 				},
 				{
 					name: 'Arch Linux',
@@ -160,8 +166,8 @@ const CONFIG = {
 					link: 'https://www.youtube.com',
 				},
 				{
-					name: 'HBO',
-					link: 'https://www.max.com/es/es',
+					name: 'Netflix',
+					link: 'https://www.netflix.com',
 				},
 				{
 					name: 'Twitch',
@@ -186,16 +192,16 @@ const CONFIG = {
 					link: 'https://www.spotify.com',
 				},
 				{
-					name: 'Hacktricks',
-					link: 'https://book.hacktricks.xyz/',
+					name: 'r/unixporn',
+					link: 'https://www.reddit.com/r/unixporn',
 				},
 				{
-					name: 'HackerOne',
-					link: 'https://hackerone.com/users/sign_in',
+					name: 'Facebook',
+					link: 'https://www.facebook.com',
 				},
 				{
-					name: 'Bugcrowd',
-					link: 'https://www.bugcrowd.com/',
+					name: 'Twitter',
+					link: 'https://twitter.com',
 				},
 			],
 		},
@@ -204,20 +210,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Hack The Box',
-					link: 'https://account.hackthebox.com/login',
+					name: 'Programming',
+					link: 'https://www.reddit.com/r/programming/',
 				},
 				{
-					name: 'ExploitDB',
-					link: 'https://www.exploit-db.com/',
+					name: 'Rust',
+					link: 'https://www.reddit.com/r/rust/',
 				},
 				{
-					name: 'Revshells',
-					link: 'https://www.revshells.com/',
+					name: 'Go',
+					link: 'https://www.reddit.com/r/golang/',
 				},
 				{
-					name: 'Crackstation',
-					link: 'https://crackstation.net/',
+					name: 'Python',
+					link: 'https://www.reddit.com/r/Python/',
 				},
 			],
 		},

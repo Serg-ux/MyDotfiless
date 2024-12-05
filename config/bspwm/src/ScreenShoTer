@@ -3,8 +3,10 @@
 #  ╚═╗║  ╠╦╝║╣ ║╣ ║║║╚═╗╠═╣║ ║ ║ ║╣ ╠╦╝
 #  ╚═╝╚═╝╩╚═╚═╝╚═╝╝╚╝╚═╝╩ ╩╚═╝ ╩ ╚═╝╩╚═
 #
+#   z0mbi3
+#   https://github.com/gh0stzk/dotfiles
 #   Script to take screenshots using maim.
-
+#   20.12.2023 16:10:25
 
 # Screenshot general options
 timestamp=$(date +%Y-%m-%d-%H%M%S)
